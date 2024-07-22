@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Desktop</title>
+    <link rel="stylesheet" href="Virus.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="active.js"></script>
+    <div class="desktop">
+        <div class="app">
+            <div class="icon">
+                <button>
+                    <img src="image/lockfile.jpg">
+                    <p id="icontext1">새 폴더</p>
+                </button>
+            </div>
+            <div class="icon">
+                <button>
+                    <img src="image/lockfile.jpg">
+                    <p id="icontext2">사진</p>
+                </button>
+            </div>
+            <div class="icon">
+                <button onclick="location.href='index.html'">
+                    <img id="virus" src="image/exevirus.jpg">
+                    <p>마인크래프트<br>1.20.1버전<br>정품 다운로드</p>
+                </button>
+            </div>
+            <div class="icon">
+                <button onclick="box()">
+                    <img id="virus" src="image/antivirus.png">
+                    <p>컴퓨터 초기화</p>
+                </button>
+            </div>
+            <div id="box">
+                <p id="war">
+                    <랜섬웨어 감염을 예방하는 방법> <br><br>1.소프트웨어와 파일은 신뢰할 수 있는 공식 웹사이트나 소스에서만 다운로드합니다. <br>2.알 수 없는 발신자나 의심스러운 이메일, 첨부 파일, 링크를 열지 않도록 주의합니다. <br>3.운영 체제와 모든 소프트웨어를 최신 상태로 유지하여 알려진 취약점을 방지합니다.</p>
+                <button id="clean" onclick="ew()">확인</button>
+            </div>
+            <div id="box2">
+                <p id="war2">
+                    <랜섬웨어 감염을 예방하는 방법><br><br>- 감염이 심각하여 복구가 어렵다면, 운영 체제를 초기화 후<br>재설치하는 것이 가장 확실한 방법입니다. </p>
+                <button id="clean" onclick="location.href='window.html'">알겠습니다</button>
+            </div>
+        </div>
+        <div class="taskbar">
+            <img src="image/window-icon.jpg" id="window-icon">
+            <span></span>
+            <div class="search">
+                <img src="image/search_icon.jpg">
+                <input type="text" value="검색어를 입력해주세요.">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
